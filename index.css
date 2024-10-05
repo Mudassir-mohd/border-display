@@ -1,0 +1,62 @@
+#head{
+    text-align: center;
+    color: blue;
+}
+h3{
+    color: chocolate;
+}
+#para1{
+    border: 25px solid red;
+    border-radius: 20%;
+    padding: 5%;
+    border-style:ridge;
+    background-clip: content-box;
+    color: blue;
+    background-color: aquamarine;
+
+}
+#para2{
+    border: 15px dotted green;
+    padding: 5%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background-clip:border-box;
+    color:black;
+    background-color: yellow;
+}
+#para3{
+    border: 15px double  blue;
+    padding: 5%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-clip:padding-box;
+    color:brown;
+    background-color: yellow;
+}
+#para4{
+    border: 15px groove purple;
+    padding: 5%;
+    border-radius: 15%;
+    border-style: outset;
+    background-clip: content-box;
+    color:gold;
+    background-color:cadetblue;
+}
+#para5{
+    border: 15px dashed brown;
+    padding: 5%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    background-clip: border-box;
+    color:black;
+    background-color: cornflowerblue;
+}
+div h3{
+    background-color: aquamarine;
+    width: 100px;
+}
+#para3 + #para4{
+    background-clip: content-box;
+    color: orange;
+    background-color: aquamarine;
+}
